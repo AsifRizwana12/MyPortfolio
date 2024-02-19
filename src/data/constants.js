@@ -1,28 +1,27 @@
-import crhsImg from '../images/education/download.jpg';
-import vaagdeviImg from '../images/education/sufhaoew.ntr.webp';
-import nitnImg from '../images/experience/National_Institute_of_Technology,_Nagaland_Logo.png';
-import brickowImg from '../images/experience/brickow_logo.jpg';
-import ineouronImg from '../images/experience/ineuron.png';
-import bloodImg from '../images/projects/blood_bank.png';
+import ssvnhs from '../images/education/ssvnhs.jpg';
+import rlr from '../images/education/rlr.jpg';
+import jntuh from '../images/education/jntuhces.jpg';
+import zapsmarketing from '../images/experience/zapsmarketing.jpeg';
+import zigy from '../images/experience/ziggy.jpg';
+import food from '../images/projects/food.jpg';
 import ecommerceImg from '../images/projects/ecommerce.png';
 import gptImg from '../images/projects/gpt.png';
 import mcqImg from '../images/projects/mcq_generator.png';
-import memeImg from '../images/projects/meme_generator.png';
+import zaps from '../images/projects/rewardss_1.jpg';
 
 export const Bio = {
-  name: "Chandu Ajmeera",
+  name: "Asif Rizwana",
   roles: [
     "Full Stack Developer",
     "Programmer",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/Achandu905",
+  github: "https://github.com/AsifRizwana12",
   resume:
-    "https://drive.google.com/file/d/1P2Ob0nttHse8VkWtjYvdwLDWP6cBzNtS/view?usp=drive_link",
-  linkedin: "https://www.linkedin.com/in/chandu-ajmeera-39b737238",
-  twitter: "https://x.com/AjmeeraPunnam?t=Q2ij07bQr5-fMOA4F_3teQ&s=09",
-  insta: "https://www.instagram.com/_chandu__01?igsh=dzFsOWpmYWh3ejZv",
+    "https://drive.google.com/file/d/1xXk-DSZVFNhsGuxb26SnRLwRj8kevZGd/view?usp=drivesdk",
+  linkedin: "https://www.linkedin.com/in/asif-rizwana-1a7569227",
+  
  
 };
 
@@ -40,11 +39,7 @@ export const skills = [
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
-      {
-        name: "Next Js",
-        image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
-      },
+     
       {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
@@ -169,88 +164,73 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img:brickowImg,
-    company: "Brickow",
-    date: "June 2023 - July 2023",
-    desc: " Designed and implemented RESTful APIs using Node.js and Express.js, allowing seamless communication between the frontend and backend.Successfully added a new feature that enabled users to retrieve bills for a specific customer,implementing data retrieval and filtering logic on the backend using MongoDB queries.",
+    img: zapsmarketing,
+    role: "Full Stack Developer",
+    company: "Zaps Marketing ",
+    date: "May 2023 - Present",
+desc:"Working on frontend using Typescript and ReactJS based on Figma Design.Succesfully added the new featuresthat enables the Merchant to create Gift Cards. Utilizing Version Control Systems Git for Code management and participating in code reviews to maintaincode quality and consistency. Writing and optimizing SQL queries to extract, update, and manipulate data forreporting and application functionality.",
+
     skills: [
       "ReactJS",
       "Redux",
-      "NodeJs",
-      "EpressJs",
       "HTML",
       "CSS",
       "JavaScript",
-      "MongoDB",
-      "Postman",
-      "Restful API"
-    ],
-    
-  },
-  {
-    id: 1,
-    img: nitnImg,
-    role: "Coding Club Secretary",
-    company: "National Institute of Technology, Nagaland",
-    date: "Aug 2022 - July 2023",
-desc: "As the Secretary of the Coding Club, I was responsible for organizing and conducting coding competitions, hackathons, and workshops. I also mentored and guided students in their projects and helped them improve their coding skills. I also conducted regular coding classes and workshops to help students improve their coding skills and prepare for coding competitions.",
-    skills: [
-      "Coding",
-      "Leadership",
-      "Mentoring",
-      "Public Speaking",
-      "Event Management",
-      "Problem Solving",
+      "Python",
+      "Flask",
+      "Mysql",
+      "AWS"
+      
     ],
    
   },
   {
-    id: 2,
-    img:ineouronImg,
-    role: "Campus Tech Leader",
-    company: "Ineuron.ai",
-    date: "June 2022 - Oct 2022",
-    desc: "• Successfully organized and led two hackathons, bringing together students from various disciplines to collaborate and innovate on tech projects within a limited timeframe.Motivated and mentored peers and junior students,encouraging them to actively engage in coding activities. ",
+    id: 1,
+    img:zigy,
+    company: "Zigy Prints",
+    date: "Jan 2023 - Apr 2023",
+    desc:"Developed web Applications Using Typescript and ReactJS based on client Requirements.Build Responsive website’s using Bootstrap.",
+    
     skills: [
-      "Coding",
-      "Leadership",
-      "Mentoring",
-      "Public Speaking",
-      "Event Management",
-      "Problem Solving",
-      "Teamwork",
-    ],
-  
+      "ReactJS",
+      "Redux",
+      "HTML",
+      "CSS",
+      "JavaScript",
+       ],
+    
   }
+  
+
  
 ];
 
 export const education = [
   {
     id: 0,
-    img:nitnImg,
-    school: "National Institute of Technology, Nagaland",
-    date: "July 2020 - May 2024",
-    grade: "9.00 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Electronics and instrumentation at National Institute of Technology, Nagaland. I have completed 7 semesters and have a CGPA of 9. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also Coding Club Secretary and have organized and conducted coding competitions, hackathons, and workshops. I have also mentored and guided students in their projects and helped them improve their coding skills. I have also conducted regular coding classes and workshops to help students improve their coding skills and prepare for coding competitions.",
-    degree: "Bachelor of Technology - BTech, Electronics and Instrumentation Engineering",
+    img:jntuh,
+    school: "JNTUH College of Engineering Sultanpur",
+    date: "July 2019 - july 2023",
+    grade: "7.70 CGPA",
+    desc: "I have completed My gradutation in 2023 . I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also Coding Club Secretary and have organized and conducted coding competitions, hackathons, and workshops. I have also mentored and guided students in their projects and helped them improve their coding skills. I have also conducted regular coding classes and workshops to help students improve their coding skills and prepare for coding competitions.",
+    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
   },
   {
     id: 1,
-    img: vaagdeviImg,
-    school: "Vaagdevi Junior College, Warangal",
+    img: rlr,
+    school: "Dr.RLR junior college",
     date: "June 2017 - Apr 2019",
-    grade: "97.3%",
-    desc: "I completed my class 12 high school education at Vaagdevi Junior College, Warangal where I studied Maths and Science.",
+    grade: "97.5%",
+    desc: "I completed my class 12 high school education at Dr.RLR junior college, Zaheerbad where I studied Maths and Science.",
     degree: "Intermediate(XII) ",
   },
   {
     id: 2,
-    img:crhsImg,
-    school: "Chukka Ramaiah High School, Mancherial",
+    img:ssvnhs,
+    school: "SSVN High School, Hyderabad",
   date: "Jun 2016 - Apr 2017",
-    grade: "9.00 CGPA",
-    desc: "I completed my class 10 education at Chukka Ramaiah High School, Mancherial where I studied Science .",
+    grade: "9.7 CGPA",
+    desc: "I completed my class 10 education at SSVN High School, Hyderabad where I studied Science .",
     degree: "SSC(X), Science",
   },
 ];
@@ -258,21 +238,20 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Ecommerce Application For Clothing Retail",
-    date: "Dec 2023 - Jan 2024",
-    description:"Developed a fully functional eCommerce application using React, Express, MongoDB and Context API.Integrated the Brain tree payment gateway to enable secure transactions.Implemented private routing with JWT authentication",
+    title: "Traffic Sign Recognition using nlp",
+    date: "Dec 2022 - Jan 2023",
+    description:"Detecting the traffic signals which are present on either side of the roads is very important to maintain the safety. So, this project is all about capturing the images of the traffic signboards which are present on either side of the road and generating a message accordingly.",
     image:ecommerceImg,
     tags: [
-      "React Js",
-      "MongoDB",
-      "Node Js",
-      "Express Js",
-      "Context API",
-      "Brain Tree",
-      "JWT",
+      "Python",
+      "Numpy",
+      "Keras",
+      "TensorFlow",
+      "OPENCV",
+
     ],
-    category: "web app",
-    github: "https://github.com/Achandu905/Ecommerce_Application/tree/master",
+    category: "Application",
+    github: "https://github.com/AsifRizwana12/Traffic-Sign-Recognition.git",
     webapp: "/",
   },
   {
@@ -291,19 +270,19 @@ export const projects = [
       "JWT"
     ],
     category: "web app",
-    github: "https://github.com/Achandu905/AI_GPT3",
+    github: "https://github.com/AsifRizwana12/AI_CHAT_GPT.git",
     webapp: "/",
   },
   {
     id: 2,
-    title: "Blood Bank Application",
+    title: "Food Delivery",
     date: "Apr 2023 - May 2023",
     description:
-  "Designed and developed a blood bank application using React, Express, MongoDB, and Redux. With this application, users can find blood donors and request blood.",
-    image:bloodImg,
+  "Designed and developed a food delivery application using React, Express, MongoDB, and Redux. With this application, users can order food.",
+    image:food,
     tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux"],
     category: "web app",
-    github: "https://github.com/Achandu905/Blood_Bank_Application",
+    github: "https://github.com/AsifRizwana12/Node.git",
     webapp: "/",
     
     
@@ -324,20 +303,20 @@ export const projects = [
       "Google Colab"
     ],
     category: "machine learning",
-github: "https://github.com/Achandu905",
+github: "https://github.com/AsifRizwana12/Automated-MCQS-Generation.git",
     webapp: "/",
   },
   {
     id: 4,
-    title: "Meme Generator",
-    date: "Jan 2023 - Mar 2023",
+    title: "Zaps Rewards",
+    date: "May 2023 - Feb 2024",
     description:
-      "Developed a meme generator application using React, Node.js, and Express. Users can create and share memes with friends and family.Implemented private routing with JWT authentication for enhanced security.",
-    image:memeImg
-     ,
-    tags: ["HTML", "CSS", "JAVA SCRIPT", "GIMME API"],
+"The Zaps Portal provides the creation of Promo Code’s , Gift Card’s and Dormant Card’s.Worked on ZapsPortal, Client portal and Merchant Portal. Succesfully added the new features that enables the Merchant tocreate Gift Cards",   
+ image:zaps,
+     
+    tags: ["HTML", "CSS", "JAVA SCRIPT", "Reactjs","python","Mysql","AWS"],
     category: "web app",
-    github: "https://github.com/Achandu905/MEME_Generator",
+    github: "https://github.com/AsifRizwana12",
     webapp: "/",
     
   }

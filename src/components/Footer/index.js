@@ -88,7 +88,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Chandu Ajmeera</Logo>
+        <Logo>Asif Rizwana</Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
@@ -103,7 +103,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Chandu Ajmeera. All rights reserved.
+          &copy; 2024 Asif Rizwana. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
